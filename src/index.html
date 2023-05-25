@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-lightSand font-main">
+    <header
+      class="flex justify-between items-center p-6 border-b border-black tablet:items-start"
+    >
+      <div class="flex items-start desktop:ml-[120px]">
+        <img
+          src="./images/logo.svg"
+          alt="logo"
+          class="w-[23px] h-[23px] mr-1 tablet:mr-3 tablet:w-[45px] tablet:h-[45px]"
+        />
+        <h1
+          class="text-2xl font-title font-extrabold w-[94px] leading-6 tablet:text-[35px] tablet:leading-10 tablet:w-[192px]"
+        >
+          VooDoo Test
+        </h1>
+      </div>
+      <nav class="flex gap-[4px] items-top desktop:mr-[120px]">
+        <a
+          href="#"
+          class="block text-[14px] pt-[5px] pb-[5px] pl-3 pr-3 font-semibold h-[34px] tablet:text-[20px] tablet:h-[38px]"
+          >About us</a
+        >
+        <a
+          href="#"
+          class="block text-[14px] pt-[5px] pb-[5px] pl-3 pr-3 font-bold h-[34px] bg-black text-white rounded tablet:text-[20px] tablet:h-[38px]"
+          >Sign-up</a
+        >
+      </nav>
+    </header>
+    <main class="m-6 desktop:ml-[120px] desktop:mr-[120px]">
+      <section class="bg-black flex items-center p-6">
+        <img src="./images/alert.svg" alt="alert" class="mr-2 w-5 h-5" />
+        <span class="text-white mr-6 uppercase">Alpha</span>
+        <span class="text-white mr-[57px]"
+          >Important info
+          <span class="hidden tablet:inline">regarding our company</span></span
+        >
+        <button id="toggle-dropdown" class="ml-auto">
+          <img src="./images/arrow.svg" alt="Show" width="24px" height="24px" />
+        </button>
+      </section>
+      <section class="bg-black p-6 hidden" id="dropdown">
+        <span class="text-white">This is the dropdown menu with info</span>
+      </section>
+      <section class="mt-[50px]">
+        <ul
+          id="list"
+          class="mb-[98px] tablet:flex tablet:flex-row tablet:gap-6 tablet:flex-wrap tablet:justify-center"
+        ></ul>
+      </section>
+      <section class="mr-6 ml-6 mb-[127px]">
+        <p class="text-[12px] text-center mb-6 tablet:text-[20px]">
+          Be the first one to know when we launch our beta!
+        </p>
+        <div class="flex gap-3 items-center justify-center">
+          <input
+            type="text"
+            placeholder="E-mail"
+            class="h-[43px] w-[234px] p-4 placeholder:text-black font-semibold text-[16px] rounded tablet:w-[518px]"
+          />
+          <button
+            type="button"
+            class="h-[43px] w-[112px] pl-4 pr-4 bg-button text-[14px] font-semibold rounded whitespace-nowrap"
+          >
+            Sign-up
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-white border-t border-black p-12 flex gap-12 flex-col font-footer tablet:flex-row-reverse tablet:justify-end desktop:p-[92px]"
+    >
+      <div
+        class="flex gap-12 flex-col tablet:flex-row desktop:justify-between desktop:ml-auto"
+      >
+        <ul class="desktop:w-[300px]">
+          <li><a href="#" class="font-bold text-[14px]">FAQ</a></li>
+          <li><a href="#" class="font-bold text-[14px]">RETURNS</a></li>
+          <li><a href="#" class="font-bold text-[14px]">CONTACT</a></li>
+        </ul>
+        <ul class="desktop:w-[300px]">
+          <li>
+            <a href="#" class="font-bold text-[14px]">TERMS & CONDITIONS</a>
+          </li>
+          <li><a href="#" class="font-bold text-[14px]">PRIVACY POLICY</a></li>
+          <li><a href="#" class="font-bold text-[14px]">COOKIE POLICY</a></li>
+          <li><a href="#" class="font-bold text-[14px]">COOKIE SETTINGS</a></li>
+        </ul>
+        <ul class="desktop:w-[300px]">
+          <li><a href="#" class="font-bold text-[14px]">ABOUT VOODOO</a></li>
+          <li><a href="#" class="font-bold text-[14px]">CAREER</a></li>
+          <li><a href="#" class="font-bold text-[14px]">FACEBOOK</a></li>
+          <li><a href="#" class="font-bold text-[14px]">INSTAGRAM</a></li>
+        </ul>
+      </div>
+      <img
+        src="./images/logo.svg"
+        alt="logo"
+        class="h-[82px] w-[82px] ml-auto mr-auto desktop:ml-[138px]"
+      />
+    </footer>
+  </body>
+
+  <script type="module" src="./index.js"></script>
+</html>
