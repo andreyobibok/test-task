@@ -14,35 +14,37 @@
     />
   </head>
   <body class="bg-lightSand font-main">
-    <header
-      class="flex justify-between items-center p-6 border-b border-black tablet:items-start"
-    >
-      <div class="flex items-start desktop:ml-[120px]">
-        <img
-          src="./images/logo.svg"
-          alt="logo"
-          class="w-[23px] h-[23px] mr-1 tablet:mr-3 tablet:w-[45px] tablet:h-[45px]"
-        />
-        <h1
-          class="text-2xl font-title font-extrabold w-[94px] leading-6 tablet:text-[35px] tablet:leading-10 tablet:w-[192px]"
-        >
-          VooDoo Test
-        </h1>
+    <header class="border-b border-black">
+      <div
+        class="flex justify-between items-center p-6 tablet:items-start desktop:max-w-[1272px] desktop:mr-auto ml-auto desktop:pl-0"
+      >
+        <div class="flex items-start">
+          <img
+            src="./images/logo.svg"
+            alt="logo"
+            class="w-[23px] h-[23px] mr-1 tablet:mr-3 tablet:w-[45px] tablet:h-[45px] desktop:absolute desktop:top-6 desktop:left-16"
+          />
+          <h1
+            class="text-2xl font-title font-extrabold w-[94px] leading-6 tablet:text-[35px] tablet:leading-10 tablet:w-[192px]"
+          >
+            VooDoo Test
+          </h1>
+        </div>
+        <nav class="flex gap-[4px] items-top">
+          <a
+            href="#"
+            class="block text-[14px] pt-[5px] pb-[5px] pl-3 pr-3 font-semibold h-[34px] tablet:text-[20px] tablet:h-[38px]"
+            >About us</a
+          >
+          <a
+            href="#"
+            class="block text-[14px] pt-[5px] pb-[5px] pl-3 pr-3 font-bold h-[34px] bg-black text-white rounded tablet:text-[20px] tablet:h-[38px]"
+            >Sign-up</a
+          >
+        </nav>
       </div>
-      <nav class="flex gap-[4px] items-top desktop:mr-[120px]">
-        <a
-          href="#"
-          class="block text-[14px] pt-[5px] pb-[5px] pl-3 pr-3 font-semibold h-[34px] tablet:text-[20px] tablet:h-[38px]"
-          >About us</a
-        >
-        <a
-          href="#"
-          class="block text-[14px] pt-[5px] pb-[5px] pl-3 pr-3 font-bold h-[34px] bg-black text-white rounded tablet:text-[20px] tablet:h-[38px]"
-          >Sign-up</a
-        >
-      </nav>
     </header>
-    <main class="m-6 desktop:ml-[120px] desktop:mr-[120px]">
+    <main class="m-6 desktop:ml-auto desktop:mr-auto desktop:max-w-[1272px]">
       <section class="bg-black flex items-center p-6">
         <img src="./images/alert.svg" alt="alert" class="mr-2 w-5 h-5" />
         <span class="text-white mr-6 uppercase">Alpha</span>

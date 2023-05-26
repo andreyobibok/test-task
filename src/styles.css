@@ -538,6 +538,30 @@ video {
   top: 0.75rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-\[62px\] {
+  left: 62px;
+}
+
+.top-\[48px\] {
+  top: 48px;
+}
+
+.top-\[35px\] {
+  top: 35px;
+}
+
+.top-\[30px\] {
+  top: 30px;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -598,10 +622,6 @@ video {
   display: block;
 }
 
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -630,10 +650,6 @@ video {
   height: 43px;
 }
 
-.h-\[80px\] {
-  height: 80px;
-}
-
 .h-\[82px\] {
   height: 82px;
 }
@@ -646,36 +662,24 @@ video {
   width: 100%;
 }
 
-.w-\[236px\] {
-  width: 236px;
-}
-
-.w-\[23px\] {
-  width: 23px;
-}
-
-.w-\[80px\] {
-  width: 80px;
-}
-
-.w-\[94px\] {
-  width: 94px;
+.w-\[112px\] {
+  width: 112px;
 }
 
 .w-\[234px\] {
   width: 234px;
 }
 
-.w-\[96px\] {
-  width: 96px;
-}
-
-.w-\[112px\] {
-  width: 112px;
+.w-\[23px\] {
+  width: 23px;
 }
 
 .w-\[82px\] {
   width: 82px;
+}
+
+.w-\[94px\] {
+  width: 94px;
 }
 
 .flex-col {
@@ -795,6 +799,14 @@ video {
   padding-top: 5px;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -820,20 +832,12 @@ video {
   font-size: 12px;
 }
 
-.text-\[13px\] {
-  font-size: 13px;
-}
-
 .text-\[14px\] {
   font-size: 14px;
 }
 
 .text-\[16px\] {
   font-size: 16px;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
 }
 
 .font-bold {
@@ -880,22 +884,6 @@ video {
     margin-right: 0.75rem;
   }
 
-  .tablet\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .tablet\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .tablet\:ml-\[230px\] {
-    margin-left: 230px;
-  }
-
-  .tablet\:mr-\[133px\] {
-    margin-right: 133px;
-  }
-
   .tablet\:inline {
     display: inline;
   }
@@ -904,12 +892,16 @@ video {
     display: flex;
   }
 
+  .tablet\:h-\[38px\] {
+    height: 38px;
+  }
+
   .tablet\:h-\[45px\] {
     height: 45px;
   }
 
-  .tablet\:h-\[38px\] {
-    height: 38px;
+  .tablet\:w-\[192px\] {
+    width: 192px;
   }
 
   .tablet\:w-\[348px\] {
@@ -918,10 +910,6 @@ video {
 
   .tablet\:w-\[45px\] {
     width: 45px;
-  }
-
-  .tablet\:w-\[192px\] {
-    width: 192px;
   }
 
   .tablet\:w-\[518px\] {
@@ -944,10 +932,6 @@ video {
     align-items: flex-start;
   }
 
-  .tablet\:justify-start {
-    justify-content: flex-start;
-  }
-
   .tablet\:justify-end {
     justify-content: flex-end;
   }
@@ -956,49 +940,16 @@ video {
     justify-content: center;
   }
 
-  .tablet\:justify-between {
-    justify-content: space-between;
-  }
-
   .tablet\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .tablet\:gap-\[168px\] {
-    gap: 168px;
-  }
-
-  .tablet\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .tablet\:text-\[50px\] {
-    font-size: 50px;
-  }
-
-  .tablet\:text-\[40px\] {
-    font-size: 40px;
-  }
-
-  .tablet\:text-\[35px\] {
-    font-size: 35px;
   }
 
   .tablet\:text-\[20px\] {
     font-size: 20px;
   }
 
-  .tablet\:leading-3 {
-    line-height: .75rem;
-  }
-
-  .tablet\:leading-6 {
-    line-height: 1.5rem;
-  }
-
-  .tablet\:leading-8 {
-    line-height: 2rem;
+  .tablet\:text-\[35px\] {
+    font-size: 35px;
   }
 
   .tablet\:leading-10 {
@@ -1007,28 +958,36 @@ video {
 }
 
 @media (min-width: 1512px) {
-  .desktop\:ml-\[230px\] {
-    margin-left: 230px;
+  .desktop\:absolute {
+    position: absolute;
   }
 
-  .desktop\:mr-\[133px\] {
-    margin-right: 133px;
+  .desktop\:left-0 {
+    left: 0px;
+  }
+
+  .desktop\:top-0 {
+    top: 0px;
+  }
+
+  .desktop\:top-6 {
+    top: 1.5rem;
+  }
+
+  .desktop\:left-6 {
+    left: 1.5rem;
+  }
+
+  .desktop\:left-10 {
+    left: 2.5rem;
+  }
+
+  .desktop\:left-16 {
+    left: 4rem;
   }
 
   .desktop\:ml-\[120px\] {
     margin-left: 120px;
-  }
-
-  .desktop\:mr-\[120px\] {
-    margin-right: 120px;
-  }
-
-  .desktop\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .desktop\:mr-0 {
-    margin-right: 0px;
   }
 
   .desktop\:ml-\[138px\] {
@@ -1039,24 +998,36 @@ video {
     margin-left: auto;
   }
 
+  .desktop\:mr-\[120px\] {
+    margin-right: 120px;
+  }
+
+  .desktop\:mr-auto {
+    margin-right: auto;
+  }
+
+  .desktop\:mr-\[57px\] {
+    margin-right: 57px;
+  }
+
   .desktop\:w-\[300px\] {
     width: 300px;
+  }
+
+  .desktop\:max-w-\[1272px\] {
+    max-width: 1272px;
   }
 
   .desktop\:justify-between {
     justify-content: space-between;
   }
 
-  .desktop\:gap-\[168px\] {
-    gap: 168px;
-  }
-
-  .desktop\:gap-\[23px\] {
-    gap: 23px;
-  }
-
   .desktop\:p-\[92px\] {
     padding: 92px;
+  }
+
+  .desktop\:pl-0 {
+    padding-left: 0px;
   }
 
   .desktop\:text-\[12px\] {
